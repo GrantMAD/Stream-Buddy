@@ -34,6 +34,7 @@ const NewContentForm = () => {
         isMovie,
         createdAt: new Date(),
         uid: newContentDoc.id, // Unique UID for this content
+        userUid: currentUser.uid
       });
 
       // Clear form data after successful submission (optional)

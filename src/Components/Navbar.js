@@ -57,10 +57,10 @@ const Navbar = () => {
         {/* Navbar Links */}
         <div className={`text-gray-500 order-3 w-full md:w-auto md:order-2 ${isMenuOpen ? 'block' : 'hidden'} md:block`}>
           <ul className="flex font-semibold justify-between text-sm">
-            <li className="md:px-4 md:py-2 text-white m-3"><a href="/">Home</a></li>
-            <li className="md:px-4 md:py-2 text-white m-3"><a href="/AboutUs">About Us</a></li>
-            <li className="md:px-4 md:py-2 text-white m-3"><a href="/ViewPage">ViewPage</a></li>
-            <li className="md:px-4 md:py-2 text-white m-3"><a href="/ContactPage">Contact Us</a></li>
+            <li className="md:px-4 md:py-2 text-white m-3 hover:scale-125"><a href="/">Home</a></li>
+            <li className="md:px-4 md:py-2 text-white m-3 hover:scale-125"><a href="/AboutUs">About Us</a></li>
+            <li className="md:px-4 md:py-2 text-white m-3 hover:scale-125"><a href="/ViewPage">ViewPage</a></li>
+            <li className="md:px-4 md:py-2 text-white m-3 hover:scale-125"><a href="/ContactPage">Contact Us</a></li>
           </ul>
         </div>
 
@@ -85,7 +85,7 @@ const Navbar = () => {
             // Avatar and Dropdown when logged in
             <div className="relative flex items-center">
               <button
-                className="w-10 h-10 rounded-full bg-gray-500 text-white flex items-center justify-center mr-2"
+                className="w-10 h-10 rounded-full bg-gray-500 text-white flex items-center justify-center mr-2 hover:scale-125"
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
               >
                 {/* Font Awesome icon as avatar */}
@@ -101,10 +101,10 @@ const Navbar = () => {
               {/* Dropdown menu */}
               {isDropdownOpen && (
                 <ul className="absolute right-20 mt-40 bg-white shadow-lg rounded-lg w-40 p-2">
-                  <li className="w-full text-left py-2 px-4 text-indigo-500 hover:bg-gray-200">
+                  <li className="w-full text-left py-2 px-4 text-blue-600 hover:bg-gray-200">
                     <a href="/Profile">Profile</a>
                   </li>
-                  <li className="w-full text-left py-2 px-4 text-indigo-500 hover:bg-gray-200" onClick={handleLogout}>
+                  <li className="w-full text-left py-2 px-4 text-blue-600 hover:bg-gray-200" onClick={handleLogout}>
                     Logout
                   </li>
                 </ul>

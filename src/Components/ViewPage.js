@@ -209,7 +209,7 @@ const ViewPage = () => {
     <div className="min-h-screen pt-20 pb-10 pr-10 md:pr-20 lg:pr-60 pl-10 md:pl-20 lg:pl-60 bg-gray-100">
       <div>
         <div className="text-center mb-12">
-          <h1 className="text-center text-4xl font-semibold mb-6">Viewing Page</h1>
+          <h1 className="text-center text-4xl font-semibold mb-6 text-blue-600">Viewing Page</h1>
           <p className="text-lg text-gray-600 mt-2">Here you can view what movies/series you and others you follow are currently watching</p>
         </div>
         <div className='py-8 px-10 rounded bg-white shadow-lg'>
@@ -321,7 +321,7 @@ const ViewPage = () => {
                     <div className="flex text-center mb-2">
                       {content.length > 0 ? (
                         content.map(({ id, name, rating }) => (
-                          <div key={id} className="bg-gray-50 p-2 rounded-lg hover:scale-105 transition-all">
+                          <div key={id} className="bg-gray-50 p-2 rounded-lg transition-all">
                             {/* Content Thumbnail */}
                             <div className="flex justify-center mb-4">
                               <div className="w-40 h-60 bg-gray-300 rounded-lg flex justify-center items-center">

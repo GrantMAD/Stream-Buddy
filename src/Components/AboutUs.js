@@ -5,7 +5,7 @@ const AboutUs = () => {
     <div className="min-h-screen bg-gray-100 p-min-h-screen pt-20 pb-10 pr-10 md:pr-20 lg:pr-60 pl-10 md:pl-20 lg:pl-60">
       {/* Header Section */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-gray-800">About Us</h1>
+        <h1 className="text-4xl font-bold text-blue-600">About Us</h1>
         <p className="text-lg text-gray-600 mt-2">Learn more about our mission, vision, and the team behind Stream Buddy</p>
       </div>
 
@@ -26,7 +26,7 @@ const AboutUs = () => {
       </div>
 
       {/* Team Section */}
-      <div className="bg-white shadow-lg rounded-lg p-8 mb-12">
+      {/* <div className="bg-white shadow-lg rounded-lg p-8 mb-12">
         <h2 className="text-3xl font-semibold text-gray-800 mb-4">Meet the Team</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center">
@@ -51,7 +51,7 @@ const AboutUs = () => {
             <p className="text-gray-600">Lead Designer</p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Call-to-Action Section */}
       <div className="text-center">

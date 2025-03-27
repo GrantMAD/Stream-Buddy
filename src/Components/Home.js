@@ -22,7 +22,7 @@ const Home = () => {
         <div className="flex justify-center mb-12">
           <button
             onClick={ViewPageNavigation}
-            className="px-6 py-3 bg-blue-500 text-white rounded-lg text-lg hover:bg-blue-600 transition"
+            className="px-6 py-3 bg-blue-600 text-white rounded-lg text-lg hover:bg-blue-600 transition"
           >
             See What Your Friends Are Watching
           </button>
@@ -53,7 +53,7 @@ const Home = () => {
           <p className="text-gray-700 mb-6">Sign up to start sharing and discovering new shows with your friends!</p>
           <button
             onClick={SignUpPageNavigation}
-            className="px-6 py-3 bg-blue-500 text-white rounded-lg text-lg hover:bg-blue-600 transition"
+            className="px-6 py-3 bg-blue-600 text-white rounded-lg text-lg hover:bg-blue-600 transition"
           >
             Sign Up
           </button>
